@@ -2,13 +2,13 @@ import  { useRef, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import Services from './components/Services';
-import TrustedBy from './components/trustedBy';
 import OurWork from './components/OurWork';
 import Teams from './components/Teams';
 import ContactUs from './components/ContactUs';
 import {Toaster} from "react-hot-toast"
 import Footer from './components/Footer';
 import { useEffect } from 'react';
+import TrustedBy from './components/trustedBy';
 
 function App() {
    const [theme,setTheme]=useState(localStorage.getItem('theme') ? localStorage.getItem('theme'): 'light');
