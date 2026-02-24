@@ -1,4 +1,3 @@
-import React from "react";
 import assets from "../assets/assets";
 import {motion} from "motion/react";
 function Footer({ theme }) {
@@ -7,7 +6,7 @@ function Footer({ theme }) {
      initial={{opacity:0, y: 30}}
     animate={{opacity:1, y: 0}}
     transition={{duration:0.5,delay:0.8}}
-    viewPort={{once:true}}
+    viewport={{once:true}}
     className="bg-slate-50 dark:bg-gray-900 pt-10 sm:pt-10 mt-10 sm:mt-40 px-4 sm:px-10 lg:px-24 xl:px-40">
       
       {/* Top section */}
@@ -18,7 +17,7 @@ function Footer({ theme }) {
          initial={{opacity:0, y: -30}}
     animate={{opacity:1, x: 0}}
     transition={{duration:0.5,delay:0.3}}
-    viewPort={{once:true}}
+    viewport={{once:true}}
         className="space-y-5 text-sm text-gray-700 dark:text-gray-400">
           <img
             src={theme === "dark" ? assets.logo_dark : assets.logo}
@@ -43,7 +42,7 @@ function Footer({ theme }) {
          initial={{opacity:0, x: 30}}
     animate={{opacity:1, y: 0}}
     transition={{duration:0.5,delay:0.3}}
-    viewPort={{once:true}}
+    viewport={{once:true}}
         className="text-gray-600 dark:text-gray-400 max-w-md lg:ml-auto">
           <h3 className="font-semibold">Subscribe to our newsletter</h3>
           <p className="text-sm mt-2 mb-6">
@@ -71,7 +70,7 @@ function Footer({ theme }) {
            initial={{opacity:0}}
     animate={{opacity:1}}
     transition={{duration:0.5,delay:0.4}}
-    viewPort={{once:true}}
+    viewport={{once:true}}
       className="pb-6 text-sm text-gray-500 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p>Copyright 2025 © agency.io - Mr. Fraz</p>
 

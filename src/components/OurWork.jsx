@@ -32,7 +32,7 @@ function OurWork() {
          initial={{opacity:0, y: 30}}
         animate={{opacity:1, y: 0}}
         transition={{duration:0.5,delay:index * 0.2}}
-        viewPort={{once:true}}
+        viewport={{once:true}}
     key={index} className='hover:scale-102 duration-500 transition-all cursor-pointer'>
         <img src={work.image} alt=""  className='w-full rounded-xl'/>
         <h3 className='mt-3 mb-2  text-3xl'>

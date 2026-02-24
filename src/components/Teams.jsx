@@ -1,4 +1,3 @@
-import React from 'react'
 import Title from './Title'
 import { teamData } from '../assets/assets'
 import {motion} from "motion/react";
@@ -17,7 +16,7 @@ function Teams() {
                  initial={{opacity:0, y: 20}}
     animate={{opacity:1, y: 0}}
     transition={{duration:0.4,delay:index * 0.1}}
-    viewPort={{once:true}}
+    viewport={{once:true}}
                 key={index} className='flex max-sm:flex-col items-center gap p-4 rounded-xl border border-gray-100 dark:border_gray-700 bg-white dark:bg-gray-900 shadow-xl shadow-gray-100 dark:shadow-white/5 hover:scale-103 transition-all duratiion-400'>
                     <img src={team.image} alt="" className='w-12 h-12 rounded-full' />
                     <div>

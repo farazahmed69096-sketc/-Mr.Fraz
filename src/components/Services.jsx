@@ -1,4 +1,3 @@
-import React from 'react'
 import assets from "../assets/assets";
 import Title from './Title';
 import ServiceCard from './ServiceCard';
@@ -14,13 +13,13 @@ function Services() {
         {
             title:"Contant marketing",
             description:"we you execute your plan and deliever results.",
-            icon:assets.maketing_icon,
+            icon:assets.marketing_icon,
 
         },
         {
             title:"Contant writting",
             description:"we you create a marketing strategy that drives results.",
-            icon:assets.contant_icon,
+            icon:assets.content_icon,
 
         },
         {
